@@ -11,16 +11,16 @@ export default function Home() {
       {/* frame */}
       <div className="pointer-events-none fixed bottom-20 left-20 right-20 top-20 z-10">
         {/* bottom line */}
-        <div className="absolute bottom-0 left-0 h-px w-full bg-black" />
+        <div className="absolute bottom-0 left-0 h-px w-full bg-slate-600" />
         {/* left line */}
-        <div className="absolute left-0 top-0 h-full w-px bg-black" />
+        <div className="absolute left-0 top-0 h-full w-px bg-slate-600" />
         {/* right line */}
-        <div className="absolute right-0 top-0 h-full w-px bg-black" />
+        <div className="absolute right-0 top-0 h-full w-px bg-slate-600" />
         {/* top line */}
-        <div className="absolute left-0 top-0 h-px w-full bg-black" />
+        <div className="absolute left-0 top-0 h-px w-full bg-slate-600" />
       </div>
       <div className="flex h-full w-full flex-col">
-        <div className="inset-3 m-20 grow bg-emoi bg-cover">
+        <div className="inset-3 m-20 grow bg-emoi bg-cover pb-20">
           <div className="m-20 animate-tracking-in-contract text-4xl text-slate-700">
             Taisei Klasen
           </div>
