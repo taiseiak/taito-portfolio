@@ -1,11 +1,11 @@
-import Image from "next/image"
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <>
-      <div class="flex h-screen bg-emoi bg-cover bg-center">
+      <div class="flex h-screen bg-slate-300">
         <div class="m-auto">
-          <div className="text-4xl animate-tracking-in-contract">
+          <div className="text-4xl text-slate-700 animate-tracking-in-contract">
             Taisei Klasen
           </div>
         </div>
